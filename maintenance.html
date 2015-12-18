@@ -1,233 +1,74 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
 
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-<!--<![endif]-->
-<head>
-  <meta charset='utf-8'>
+    <meta http-equiv="Content-Language" content="en-gb">
 
-  <meta content='en-gb' http-equiv='Content-Language'>
-  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Hub :: itison</title>
-  <meta content='false' http-equiv='imagetoolbar'>
-  <meta content='true' name='MSSmartTagsPreventParsing'>
-  <meta content='itison Hub' name='application-name'>
-  <meta content='http://hub.itison.com/?pinned=true' name='msapplication-starturl'>
-  <meta content='#ED237A' name='msapplication-navbutton-color'>
+    <title>itison Hub</title>
+    <meta name="description" content="itison Hub">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    
+    <meta http-equiv="imagetoolbar" content="false">
+    <meta name="MSSmartTagsPreventParsing" content="true">
+		
+    <link rel="stylesheet" media="screen" href="/stylesheets/maintenance.css" />
+
+    <script src='//use.typekit.net/vtn2wia.js'></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	</head>
+
+  <body class=" hide-nav" id="">				
+	  <header id="site-header" class="l-header city-header ">
+      <h1><a href="/">itison HUB</a></h1>
+    </header>
+    
+		<div class="devise-grid sign-in">			
+      <div class="box box-pad-all">
+      	<h3>Sorry, but we're doing a little housekeeping.</h3>
   
-  <style type="text/css">
-    * { padding:0; margin:0; }
+        <p>
+          Please excuse us whilst we make a few improvements to Hub. As soon as we've finished crossing the T's, dotting the I's and tickling the Q's we'll let you know.
+        </p>
+        <p>Love, <span>The itison team</span></p>
+      </div>
 
-    body {
-    	background: #fbfbfb url("/500/images/bg.jpg") 0 0 repeat;
-      font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif;
-      font-size: 14px;
-    	color: #666;
-    	line-height: 20px;
-    	-webkit-text-size-adjust: none;
-    	}
-
-    :focus { -moz-outline-style: none; }
-
-    p { padding-bottom: 15px; }
-    img, a img { border: 0; }
-    ul li { list-style: none; }
-    .clear { clear: both; }
-
-    a {
-    	color: #383838;
-      font-weight: bold;
-    	text-decoration: none;
-    	outline: none;
-    	}
-
-    a:hover {
-    	color: #ED2273;
-    	text-decoration: none;
-    	}
-
-    #hld {
-    	background: url("/500/images/hld.jpg") 0 0 repeat-x;
-    	min-height: 402px;
-  	}
-
-    .wrapper {
-    	width:1080px;
-    	margin:0 auto;
-    	padding-top: 20px;
-      position: relative;
-  	}
-      
-    #header {
-      height: 50px;
-      line-height: 50px;
-      color: #999;
-      padding: 0px 0px 0px 20px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      border: 1px solid #5C5C5C;
-      text-align: center;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-      background: #383838;
-      background: -webkit-gradient(linear, 0 0, 0 bottom, from(#383838), to(#97194B));
-      background: -webkit-linear-gradient(#383838, #97194B);
-      background: -moz-linear-gradient(#383838, #97194B);
-      background: -ms-linear-gradient(#383838, #97194B);
-      background: -o-linear-gradient(#383838, #97194B);
-      background: linear-gradient(#383838, #97194B);
-      position:relative;
-    }
-
-    #header a:hover { color: #fff; }
-
-    #logo {
-      position:absolute;
-      top:8px;
-      left:15px;
-      width:130px;
-      height:33px;
-      overflow:hidden
-    }
-    
-    #logo a {
-      top:0;
-      left:0;
-      position:absolute;
-      width:100%;
-      height:100%;
-      display:block;
-      background: url("/500/images/logo.png");
-    }
-    #logo span {
-      text-indent:-9999px;
-      display:block;
-    }
-    #header a {
-    	color: #DDDDDD;
-    	text-decoration: none;
-    }
-    
-    .block {
-    	padding-bottom: 5px;
-    	margin-bottom: 25px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-    	clear: both;
-      background: #FAFAFA;
-      border-bottom: 1px solid #CCCCCC;
-  	}
-      
-    .block .block_head {
-    	height: 54px;
-    	line-height: 54px;
-      overflow: hidden;
-      border-top: 1px solid #CCCCCC;
-      border-left: 1px solid #CCCCCC;
-      border-right: 1px solid #CCCCCC;
-      position: relative;
-      padding: 0px 0px 0px 20px;
-       -webkit-border-radius: 5px 5px 0px 0px;
-      -moz-border-radius: 5px 5px 0px 0px;
-      border-radius: 5px 5px 0px 0px;
-      background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#EDEDED));
-      background: -webkit-linear-gradient(#fff, #EDEDED);
-      background: -moz-linear-gradient(#fff, #EDEDED);
-      background: -ms-linear-gradient(#fff, #EDEDED);
-      background: -o-linear-gradient(#fff, #EDEDED);
-      background: linear-gradient(#fff, #EDEDED);
-  	}
-    
-    .block .block_head h2 {
-      font-family: "bello-pro-1","bello-pro-2";
-      font-size: 22px;
-      font-weight: normal;
-      color: #ed2273;
-      text-shadow: 1px 1px 0 #fff;
-      float: left;
-    }
-    
-    .block .block_content {
-    	background: #fff;
-    	border-left: 1px solid #ccc;
-    	border-right: 1px solid #ccc;
-    	padding: 10px 20px 0;
-      -webkit-border-radius: 0px 0px 5px 5px;
-      -moz-border-radius: 0px 0px 5px 5px;
-      border-radius: 0px 0px 5px 5px;
-      position: relative;
-    }
-
-    .block .block_content h1,
-    .block .block_content h2 {
-    	font-size: 18px;
-    	color: #454545;
-    	margin-bottom: 10px;
-    }
-      
-    .with-character {
-      padding-left:130px;
-      min-height:300px;
-      margin:20px 50px;
-    }
-    
-    #under-construction {
-      padding-top:30px;
-      font-size:20px;
-      line-height:25px;
-      background: url("/500/images/under-construction.png") top left no-repeat;
-    }
-    
-    #under-construction span {
-      font-family: "bello-pro-1", "bello-pro-2";
-      color:#ed2273;
-    }
-  </style>
+      <div class="sign-in-footer">
+        <a href="/pages/privacy">Privacy Policy</a>
   
-  <!--[if IE]>
-    <style type="text/css">
-      .wrapper {
-        width: expression(document.body.clientWidth < 1024 ? "960px" : "90%" ); 
-      }
-    </style>
-  <![endif]-->
+    	  <p class="sign-in-footer-cta">itison, Argyll Chambers, 30 Buchanan Street, Glasgow, G1 3LB. Tel. 0141 222 2266</p>
+      </div>			
+		</div>
     
-  <script type="text/javascript" src="//use.typekit.net/avj4sjr.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
+    <script>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-66214604-1']);
+  
+        _gaq.push(['_trackPageview']);
 
-<body>
-  <div id='hld'>
-    <div class='wrapper'>
-      <div id='header'>
-        <h1 id='logo'>
-          <a href="/company/406"><span>itison</span></a>
-        </h1>
-      </div>
-      
-      <div class="block big right">
-        <div class="block_head">
-          <h2>Sorry, but we're doing a little housekeeping.</h2>
-        </div>
-        <div class="block_content">
-          <div class="with-character" id="under-construction">
-            <p>
-              “
-              Please excuse us whilst we make a few improvements to Hub. As soon as we've finished crossing the T's, dotting the I's and tickling the Q's we'll let you know.
-              ”
-            </p>
-            <p>Love, <span>The itison team</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      //]]>
+    </script>  
+    <script>
+      //<![CDATA[
+        !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+        arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+        d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+        insertBefore(d,q)}(window,document,'script','_gs');
 
-</body>
+        _gs('GSN-100248-C');
+      //]]>
+    </script>
+  </body>
 </html>
